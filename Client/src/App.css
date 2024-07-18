@@ -1,0 +1,74 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.uploaded-file {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.uploaded-file img {
+  max-width: 50%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.uploaded-file video {
+  max-width: 50%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.uploaded-file p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.uploaded-file div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploaded-file div img {
+  width: 50px;
+  height: 50px;
+}
